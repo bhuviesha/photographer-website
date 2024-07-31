@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photographer Website</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+            background: whitesmoke;  
+        }
+        
+         footer {
+            background-color: black;
+            color:white;
+            text-align: center;
+            padding: 20px;
+        }
+        
+header {
+    /* Set the background image */
+    background-image: url('backgrnd2.jpeg');
+    
+    background-size: cover;
+    
+    /* Set background position to center */
+    background-position: center;
+    height: 300px;
+   
+
+
+
+    /* Add some styles for text to make it visible on the background */
+    color:black;
+    text-align: center;
+    font-size: larger;
+    padding-top: 100px; /* Adjust as needed */
+}
+        .photofolio-section{
+            display: grid;
+            grid-template-rows: repeat(3, 1fr);
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+            padding:20px;
+        }
+
+       
+    
+        .bottom-section {
+            grid-row: 3;
+            grid-column: span 3;
+            text-align: center;
+            padding: 20px;
+            font-family:Arial, Helvetica, sans-serif
+         }
+        .top-section{
+            color:black;
+            text-decoration:wavy;
+            text-align: center;
+            font-family: cursive;
+            font-size: medium;
+
+        }
+
+        .portfolio-item {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: center;
+        }
+        
+        
+
+        .caption {
+            font-size: 2.5em;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+
+        .navigation-links {
+            margin-bottom: 50px;
+        }
+
+        .navigation-links a {
+            color:whitesmoke;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 1.2em;
+        }
+        .top-section{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: medium;
+            
+          
+        }
+       
+
+
+        
+    </style>
+</head>
+<body>
+
+    <header>
+
+        <h1>Discover the Magic Behind the Moments</h1>
+        <h1>Shiney Photography</h1>
+             
+             <div class="navigation-links">
+                    <a href="index.html">Home</a>
+                    <a href="#">Login</a>
+                    <a href="portofolio.html">Portofolio</a>
+                    <a href="contact.html">Contact</a>
+                </div>
+   
+    </header>
+
+    <main>
+        <div class="top-section">
+            
+            <h2>Elevate Your Occasion: Unleash the Power of Professional Photography Services.</h2>
+           
+        </div>
+      
+    <div class="photofolio-section">
+        <div class="grid-item"><img src="img1.webp" alt="..."></div>
+        <div class="grid-item"><img src="img2.jpeg" alt="..."></div>
+        <div class="grid-item"><img src="img5.jpeg" alt="..."></div>
+        <div class="grid-item"><img src="img6.webp" alt="..."></div>
+        <div class="grid-item"><img src="img8.jpg" alt="..."></div>
+        <div class="grid-item"><img src="img9.webp" alt="..."></div>
+        <div class="grid-item"> <img src="img10.jpeg" alt="..."></div>
+        <div class="grid-item"><img src="img11.webp" alt="..."></div>
+        <div class="grid-item"><img src="img12.jpeg" alt="..."></div>
+        <div class="grid-item"><img src="img13.webp" alt="..."></div>
+    </div>
+
+        <div class="bottom-section">
+            <h2>Contact Me</h2>
+            <p>Let's discuss your next photography session</p>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Your Name Photography. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
